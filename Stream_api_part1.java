@@ -38,6 +38,9 @@ public class onepiece {
 
         b.stream()
         .sorted(Comparator.comparing(m -> m.toLowerCase())) ///sorted based on alphabetical order
+            
+           we can do like this also  [ .sorted((a, b) -> a.compareTo(b)) ]
+        
         .forEach(System.out::println);
 
         ---------------------Advanced sort concepts-------------------------//
